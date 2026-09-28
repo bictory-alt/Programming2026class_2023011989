@@ -1,0 +1,15 @@
+﻿  main.cpp
+C:\Users\user\source\repos\Programming2026class_2023011989\0923 공컴 실습\0923 공컴 실습\main.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\user\source\repos\Programming2026class_2023011989\0923 공컴 실습\0923 공컴 실습\main.cpp(13,10): warning C4477: 'scanf_s' : 서식 문자열 '%c'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 4의 형식이 'char *'입니다.
+      C:\Users\user\source\repos\Programming2026class_2023011989\0923 공컴 실습\0923 공컴 실습\main.cpp(13,10):
+      이 인수는 버퍼 크기로 사용됩니다.
+  
+C:\Users\user\source\repos\Programming2026class_2023011989\0923 공컴 실습\0923 공컴 실습\main.cpp(13,10): warning C4473: 'scanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+      C:\Users\user\source\repos\Programming2026class_2023011989\0923 공컴 실습\0923 공컴 실습\main.cpp(13,10):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 6개 필요하지만 4개가 제공되었습니다.
+      C:\Users\user\source\repos\Programming2026class_2023011989\0923 공컴 실습\0923 공컴 실습\main.cpp(13,10):
+      누락된 variadic 인수 5이(가) 서식 문자열 '%s'에 필요합니다.
+      C:\Users\user\source\repos\Programming2026class_2023011989\0923 공컴 실습\0923 공컴 실습\main.cpp(13,10):
+      이 인수는 변환 지정자에서 사용됩니다.
+  
+  0923 공컴 실습.vcxproj -> C:\Users\user\source\repos\Programming2026class_2023011989\0923 공컴 실습\x64\Debug\0923 공컴 실습.exe
