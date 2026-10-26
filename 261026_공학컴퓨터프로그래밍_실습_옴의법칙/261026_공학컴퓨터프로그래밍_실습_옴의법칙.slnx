@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="261026_공학컴퓨터프로그래밍_실습_옴의법칙/261026_공학컴퓨터프로그래밍_실습_옴의법칙.vcxproj" />
+</Solution>
