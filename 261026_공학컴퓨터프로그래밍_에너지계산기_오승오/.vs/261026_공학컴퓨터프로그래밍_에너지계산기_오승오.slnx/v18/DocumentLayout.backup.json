@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Programming2026class_2023011989\\261026_\uACF5\uD559\uCEF4\uD4E8\uD130\uD504\uB85C\uADF8\uB798\uBC0D_\uC5D0\uB108\uC9C0\uACC4\uC0B0\uAE30_\uC624\uC2B9\uC624\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A65B685C-F4D1-4D27-BE9C-32DD3358FE6B}|261026_\uACF5\uD559\uCEF4\uD4E8\uD130\uD504\uB85C\uADF8\uB798\uBC0D_\uC5D0\uB108\uC9C0\uACC4\uC0B0\uAE30_\uC624\uC2B9\uC624\\261026_\uACF5\uD559\uCEF4\uD4E8\uD130\uD504\uB85C\uADF8\uB798\uBC0D_\uC5D0\uB108\uC9C0\uACC4\uC0B0\uAE30_\uC624\uC2B9\uC624.vcxproj|C:\\Users\\user\\source\\repos\\Programming2026class_2023011989\\261026_\uACF5\uD559\uCEF4\uD4E8\uD130\uD504\uB85C\uADF8\uB798\uBC0D_\uC5D0\uB108\uC9C0\uACC4\uC0B0\uAE30_\uC624\uC2B9\uC624\\261026_\uACF5\uD559\uCEF4\uD4E8\uD130\uD504\uB85C\uADF8\uB798\uBC0D_\uC5D0\uB108\uC9C0\uACC4\uC0B0\uAE30_\uC624\uC2B9\uC624\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A65B685C-F4D1-4D27-BE9C-32DD3358FE6B}|261026_\uACF5\uD559\uCEF4\uD4E8\uD130\uD504\uB85C\uADF8\uB798\uBC0D_\uC5D0\uB108\uC9C0\uACC4\uC0B0\uAE30_\uC624\uC2B9\uC624\\261026_\uACF5\uD559\uCEF4\uD4E8\uD130\uD504\uB85C\uADF8\uB798\uBC0D_\uC5D0\uB108\uC9C0\uACC4\uC0B0\uAE30_\uC624\uC2B9\uC624.vcxproj|solutionrelative:261026_\uACF5\uD559\uCEF4\uD4E8\uD130\uD504\uB85C\uADF8\uB798\uBC0D_\uC5D0\uB108\uC9C0\uACC4\uC0B0\uAE30_\uC624\uC2B9\uC624\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Programming2026class_2023011989\\261026_\uACF5\uD559\uCEF4\uD4E8\uD130\uD504\uB85C\uADF8\uB798\uBC0D_\uC5D0\uB108\uC9C0\uACC4\uC0B0\uAE30_\uC624\uC2B9\uC624\\261026_\uACF5\uD559\uCEF4\uD4E8\uD130\uD504\uB85C\uADF8\uB798\uBC0D_\uC5D0\uB108\uC9C0\uACC4\uC0B0\uAE30_\uC624\uC2B9\uC624\\main.cpp",
+              "RelativeDocumentMoniker": "261026_\uACF5\uD559\uCEF4\uD4E8\uD130\uD504\uB85C\uADF8\uB798\uBC0D_\uC5D0\uB108\uC9C0\uACC4\uC0B0\uAE30_\uC624\uC2B9\uC624\\main.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Programming2026class_2023011989\\261026_\uACF5\uD559\uCEF4\uD4E8\uD130\uD504\uB85C\uADF8\uB798\uBC0D_\uC5D0\uB108\uC9C0\uACC4\uC0B0\uAE30_\uC624\uC2B9\uC624\\261026_\uACF5\uD559\uCEF4\uD4E8\uD130\uD504\uB85C\uADF8\uB798\uBC0D_\uC5D0\uB108\uC9C0\uACC4\uC0B0\uAE30_\uC624\uC2B9\uC624\\main.cpp*",
+              "RelativeToolTip": "261026_\uACF5\uD559\uCEF4\uD4E8\uD130\uD504\uB85C\uADF8\uB798\uBC0D_\uC5D0\uB108\uC9C0\uACC4\uC0B0\uAE30_\uC624\uC2B9\uC624\\main.cpp*",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAswMAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-26T08:13:27.754Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
