@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\oso64\\OneDrive\\\uBB38\uC11C\\GitHub\\Programming2026class_2023011989\\2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uB3C4\uAE68\uBE44\uC790\uD310\uAE30\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E690D78-2F2C-4950-8E70-95A5031C2583}|..\\\uB3C4\uAE68\uBE44\uC790\uD310\uAE30_developed\\\uB3C4\uAE68\uBE44\uC790\uD310\uAE30_developed.vcxproj|C:\\Users\\oso64\\OneDrive\\\uBB38\uC11C\\GitHub\\Programming2026class_2023011989\\\uB3C4\uAE68\uBE44\uC790\uD310\uAE30_developed\\main_developed.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D1E31324-681E-42D0-BA91-588D1F8EF66D}|2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uB3C4\uAE68\uBE44\uC790\uD310\uAE30.vcxproj|C:\\Users\\oso64\\OneDrive\\\uBB38\uC11C\\GitHub\\Programming2026class_2023011989\\2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uB3C4\uAE68\uBE44\uC790\uD310\uAE30\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D1E31324-681E-42D0-BA91-588D1F8EF66D}|2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uB3C4\uAE68\uBE44\uC790\uD310\uAE30.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E690D78-2F2C-4950-8E70-95A5031C2583}|..\\\uB3C4\uAE68\uBE44\uC790\uD310\uAE30_developed\\\uB3C4\uAE68\uBE44\uC790\uD310\uAE30_developed.vcxproj|C:\\Users\\oso64\\OneDrive\\\uBB38\uC11C\\GitHub\\Programming2026class_2023011989\\\uB3C4\uAE68\uBE44\uC790\uD310\uAE30_developed\\main_developed.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,11 +17,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main_developed.cpp",
               "DocumentMoniker": "C:\\Users\\oso64\\OneDrive\\\uBB38\uC11C\\GitHub\\Programming2026class_2023011989\\\uB3C4\uAE68\uBE44\uC790\uD310\uAE30_developed\\main_developed.cpp",
               "RelativeDocumentMoniker": "..\\\uB3C4\uAE68\uBE44\uC790\uD310\uAE30_developed\\main_developed.cpp",
@@ -34,15 +34,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\oso64\\OneDrive\\\uBB38\uC11C\\GitHub\\Programming2026class_2023011989\\2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uB3C4\uAE68\uBE44\uC790\uD310\uAE30\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\oso64\\OneDrive\\\uBB38\uC11C\\GitHub\\Programming2026class_2023011989\\2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uB3C4\uAE68\uBE44\uC790\uD310\uAE30\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-27T16:21:41.83Z"
+              "WhenOpened": "2026-10-27T16:21:41.83Z",
+              "EditorCaption": ""
             }
           ]
         }

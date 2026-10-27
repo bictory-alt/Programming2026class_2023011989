@@ -137,7 +137,7 @@ int readBirthDate(void)
             return INPUT_TOO_LONG;
         }
 
-        inputLength++;
+        inputLength = inputLength + 1;
 
         if (inputChar >= '0' && inputChar <= '9')
         {
@@ -156,7 +156,7 @@ int readBirthDate(void)
             // A count of 9 is enough to report an excessive number of digits
             if (digitCount <= BIRTH_DATE_DIGITS)
             {
-                digitCount++;
+                digitCount = digitCount + 1;
             }
         }
         else if (inputChar == ' ' || inputChar == '\t' || inputChar == '\r')
