@@ -3,6 +3,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="../공학컴퓨터프로그래밍_오승오_261025_운명의숫자_developed/공학컴퓨터프로그래밍_오승오_261025_운명의숫자_developed.vcxproj" />
-  <Project Path="공학컴퓨터프로그래밍_오승오_261025_운명의숫자프로그래밍_Report#2.vcxproj" />
+  <Project Path="../공학컴퓨터프로그래밍_오승오_261025_운명의숫자_developed/공학컴퓨터프로그래밍_오승오_261025_운명의숫자_developed.vcxproj" Id="6943ba93-5664-466d-a054-22a96dad570a" />
+  <Project Path="공학컴퓨터프로그래밍_오승오_261025_운명의숫자프로그래밍_Report#2.vcxproj" Id="d92eb3d3-d566-4f44-bcda-8c6b2a0ddde1" />
 </Solution>
