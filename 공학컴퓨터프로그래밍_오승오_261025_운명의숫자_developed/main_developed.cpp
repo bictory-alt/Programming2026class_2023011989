@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-// Number of digits required for a birthdate
-#define BIRTH_DATE_DIGITS 8
+// Input limits
+#define BIRTH_DATE_DIGITS 8       // Number of digits required for a birthdate
+#define MAX_INPUT_CHARS 1024      // Maximum bytes in one line, excluding newline
 
 // Codes returned when the input cannot be used
 #define INPUT_END (-1)            // No more input is available
@@ -9,6 +10,7 @@
 #define INPUT_NOT_DIGIT (-3)      // The line contains an invalid character
 #define INPUT_WRONG_LENGTH (-4)   // The number of digits is not 8
 #define INPUT_ERROR (-5)          // An error occurred while reading input
+#define INPUT_TOO_LONG (-6)       // The line exceeded MAX_INPUT_CHARS
 
 // Function declarations
 int readBirthDate(void);        // Read one line and check the input format
@@ -28,7 +30,6 @@ int main()
         printf("Enter your 8-digit birthdate (YYYYMMDD): ");
         birthDate = readBirthDate();
 
-        // End the program if no more input can be read
         if (birthDate == INPUT_END)
         {
             printf("\nNo more input. The program will end.\n");
@@ -37,6 +38,13 @@ int main()
         else if (birthDate == INPUT_ERROR)
         {
             printf("\nInput error. The program will end.\n");
+            return 1;
+        }
+        else if (birthDate == INPUT_TOO_LONG)
+        {
+            // End instead of reading the rest of an excessively long line
+            printf("Error: Input exceeds %d characters. The program will end.\n",
+                MAX_INPUT_CHARS);
             return 1;
         }
         else if (birthDate == INPUT_EMPTY)
@@ -68,7 +76,6 @@ int main()
 
     // Keep the original input and use number for calculation
     number = birthDate;
-
     printf("Calculating...\n");
 
     // Add the digits and repeat if the result has two or more digits
@@ -76,8 +83,6 @@ int main()
     {
         sum = sumDigits(number);
         printf("Sum of digits: %d\n", sum);
-
-        // Use this sum as the number for the next round
         number = sum;
     } while (sum >= 10);
 
@@ -93,56 +98,62 @@ int main()
 int readBirthDate(void)
 {
     char inputChar;
-    int digitCount = 0;
-    int birthDate = 0;
-    int hasInvalidChar = 0;
-    int hasSpaceAfterDigit = 0;
-    int hasReadAnyChar = 0;
+    int inputLength = 0;          // Count all bytes before newline, including spaces
+    int digitCount = 0;           // Count digits, stopping at 9 for an excessive length
+    int birthDate = 0;            // Build a number from the first 8 digits only
+    int hasInvalidChar = 0;       // Remember whether an invalid character was found
+    int hasSpaceAfterDigit = 0;   // Remember whether whitespace followed a digit
+    int hasReadAnyChar = 0;       // Distinguish an empty line from immediate EOF
 
-    // Read one character at a time until the line ends
     while (1)
     {
         if (scanf_s("%c", &inputChar, 1u) != 1)
         {
-            // Stop if the input stream has a reading error
+            // Do not accept a partially read line after an input error
             if (ferror(stdin))
             {
                 return INPUT_ERROR;
             }
 
-            // If no character was read, there is no more input
             if (hasReadAnyChar == 0)
             {
                 return INPUT_END;
             }
 
-            // Check the characters already read before input ended
+            // At EOF, check the characters already read
             break;
         }
 
         hasReadAnyChar = 1;
 
-        // A newline marks the end of the current input line
         if (inputChar == '\n')
         {
             break;
         }
 
+        // Stop on the 1025th non-newline byte
+        if (inputLength >= MAX_INPUT_CHARS)
+        {
+            return INPUT_TOO_LONG;
+        }
+
+        inputLength++;
+
         if (inputChar >= '0' && inputChar <= '9')
         {
-            // A digit after a space means there is a space between digits
+            // A digit after whitespace means whitespace occurred between digits
             if (hasSpaceAfterDigit == 1)
             {
                 hasInvalidChar = 1;
             }
 
-            // Build the number using only the first 8 digits
+            // Store only 8 digits to keep the value within the integer range
             if (digitCount < BIRTH_DATE_DIGITS)
             {
                 birthDate = birthDate * 10 + (inputChar - '0');
             }
 
-            // Stop counting at 9 to prevent the counter from growing
+            // A count of 9 is enough to report an excessive number of digits
             if (digitCount <= BIRTH_DATE_DIGITS)
             {
                 digitCount++;
@@ -150,7 +161,7 @@ int readBirthDate(void)
         }
         else if (inputChar == ' ' || inputChar == '\t' || inputChar == '\r')
         {
-            // Spaces before or after the digits are allowed
+            // Leading and trailing whitespace are allowed
             if (digitCount > 0)
             {
                 hasSpaceAfterDigit = 1;
@@ -158,12 +169,11 @@ int readBirthDate(void)
         }
         else
         {
-            // Record invalid characters and continue reading the line
+            // Keep reading within the limit to avoid leaving a partial line
             hasInvalidChar = 1;
         }
     }
 
-    // Return a code describing the first applicable input problem
     if (hasInvalidChar == 1)
     {
         return INPUT_NOT_DIGIT;
