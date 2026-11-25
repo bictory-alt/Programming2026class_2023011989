@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oso64\\OneDrive\\\uBB38\uC11C\\GitHub\\Programming2026class_2023011989\\2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uC6B0\uC8FC\uC120\uC5D0\uB108\uC9C0\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBA6925-E87E-44C0-B023-983BFCCC1AA5}|..\\2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uC6B0\uC8FC\uC120\uC5D0\uB108\uC9C0_developed\\2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uC6B0\uC8FC\uC120\uC5D0\uB108\uC9C0_developed.vcxproj|C:\\Users\\oso64\\OneDrive\\\uBB38\uC11C\\GitHub\\Programming2026class_2023011989\\2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uC6B0\uC8FC\uC120\uC5D0\uB108\uC9C0_developed\\main_developed.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B389D5-B589-44B4-B562-2B0D105DDBF0}|2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uC6B0\uC8FC\uC120\uC5D0\uB108\uC9C0.vcxproj|C:\\Users\\oso64\\OneDrive\\\uBB38\uC11C\\GitHub\\Programming2026class_2023011989\\2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uC6B0\uC8FC\uC120\uC5D0\uB108\uC9C0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44B389D5-B589-44B4-B562-2B0D105DDBF0}|2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uC6B0\uC8FC\uC120\uC5D0\uB108\uC9C0.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main_developed.cpp",
+              "DocumentMoniker": "C:\\Users\\oso64\\OneDrive\\\uBB38\uC11C\\GitHub\\Programming2026class_2023011989\\2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uC6B0\uC8FC\uC120\uC5D0\uB108\uC9C0_developed\\main_developed.cpp",
+              "RelativeDocumentMoniker": "..\\2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uC6B0\uC8FC\uC120\uC5D0\uB108\uC9C0_developed\\main_developed.cpp",
+              "ToolTip": "C:\\Users\\oso64\\OneDrive\\\uBB38\uC11C\\GitHub\\Programming2026class_2023011989\\2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uC6B0\uC8FC\uC120\uC5D0\uB108\uC9C0_developed\\main_developed.cpp",
+              "RelativeToolTip": "..\\2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uC6B0\uC8FC\uC120\uC5D0\uB108\uC9C0_developed\\main_developed.cpp",
+              "ViewState": "AgIAALsAAAAAAAAAAAAcwOgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-27T14:20:43.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\oso64\\OneDrive\\\uBB38\uC11C\\GitHub\\Programming2026class_2023011989\\2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uC6B0\uC8FC\uC120\uC5D0\uB108\uC9C0\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\oso64\\OneDrive\\\uBB38\uC11C\\GitHub\\Programming2026class_2023011989\\2023011989_\uC624\uC2B9\uC624_\uACF5\uCEF4_Report#2_\uC6B0\uC8FC\uC120\uC5D0\uB108\uC9C0\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-27T14:16:17.601Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

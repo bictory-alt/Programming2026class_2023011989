@@ -1,7 +1,0 @@
-<Solution>
-  <Configurations>
-    <Platform Name="x64" />
-    <Platform Name="x86" />
-  </Configurations>
-  <Project Path="0928 공컴 실습/0928 공컴 실습.vcxproj" />
-</Solution>
