@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\Users\user\source\repos\Programming2026class_2023011989\2023011989_오승오_11.11_공컴실습\2023011989_오승오_11.11_공컴실습\main.cpp(27,10): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\user\source\repos\Programming2026class_2023011989\2023011989_오승오_11.11_공컴실습\2023011989_오승오_11.11_공컴실습\main.cpp(27,10): warning C4313: 'printf': 서식 문자열의 '%x'이(가) int *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\user\source\repos\Programming2026class_2023011989\2023011989_오승오_11.11_공컴실습\2023011989_오승오_11.11_공컴실습\main.cpp(28,10): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\user\source\repos\Programming2026class_2023011989\2023011989_오승오_11.11_공컴실습\2023011989_오승오_11.11_공컴실습\main.cpp(28,10): warning C4313: 'printf': 서식 문자열의 '%x'이(가) int *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\user\source\repos\Programming2026class_2023011989\2023011989_오승오_11.11_공컴실습\2023011989_오승오_11.11_공컴실습\main.cpp(29,10): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\user\source\repos\Programming2026class_2023011989\2023011989_오승오_11.11_공컴실습\2023011989_오승오_11.11_공컴실습\main.cpp(29,10): warning C4313: 'printf': 서식 문자열의 '%x'이(가) int *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\user\source\repos\Programming2026class_2023011989\2023011989_오승오_11.11_공컴실습\2023011989_오승오_11.11_공컴실습\main.cpp(30,10): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\user\source\repos\Programming2026class_2023011989\2023011989_오승오_11.11_공컴실습\2023011989_오승오_11.11_공컴실습\main.cpp(30,10): warning C4313: 'printf': 서식 문자열의 '%x'이(가) int *' 형식의 인수 2과(와) 충돌합니다.
+  2023011989_오승오_11.11_공컴실습.vcxproj -> C:\Users\user\source\repos\Programming2026class_2023011989\2023011989_오승오_11.11_공컴실습\x64\Debug\2023011989_오승오_11.11_공컴실습.exe

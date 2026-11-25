@@ -1,0 +1,38 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Programming2026class_2023011989\\2023011989_\uC624\uC2B9\uC624_ForceCalculate_In_Onepoint\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A845834-3F71-45B6-B4F0-34FC8D31A6CE}|2023011989_\uC624\uC2B9\uC624_ForceCalculate_In_Onepoint\\2023011989_\uC624\uC2B9\uC624_ForceCalculate_In_Onepoint.vcxproj|C:\\Users\\user\\source\\repos\\Programming2026class_2023011989\\2023011989_\uC624\uC2B9\uC624_ForceCalculate_In_Onepoint\\2023011989_\uC624\uC2B9\uC624_ForceCalculate_In_Onepoint\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5A845834-3F71-45B6-B4F0-34FC8D31A6CE}|2023011989_\uC624\uC2B9\uC624_ForceCalculate_In_Onepoint\\2023011989_\uC624\uC2B9\uC624_ForceCalculate_In_Onepoint.vcxproj|solutionrelative:2023011989_\uC624\uC2B9\uC624_ForceCalculate_In_Onepoint\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Programming2026class_2023011989\\2023011989_\uC624\uC2B9\uC624_ForceCalculate_In_Onepoint\\2023011989_\uC624\uC2B9\uC624_ForceCalculate_In_Onepoint\\main.cpp",
+              "RelativeDocumentMoniker": "2023011989_\uC624\uC2B9\uC624_ForceCalculate_In_Onepoint\\main.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Programming2026class_2023011989\\2023011989_\uC624\uC2B9\uC624_ForceCalculate_In_Onepoint\\2023011989_\uC624\uC2B9\uC624_ForceCalculate_In_Onepoint\\main.cpp",
+              "RelativeToolTip": "2023011989_\uC624\uC2B9\uC624_ForceCalculate_In_Onepoint\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-25T02:05:33.241Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
